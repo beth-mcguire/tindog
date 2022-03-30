@@ -5,8 +5,18 @@ body{
 
 #title{
     background-color: #ff4c68;
-    color: #fff;
     text-align: left;
+}
+.big-heading{
+    font-size: 4.5rem;
+}
+
+.text-color{
+    color: #fff;
+}
+
+.red-bg{
+    background: #ef8172;
 }
 
 h1, h2, #cta h3{
@@ -95,11 +105,6 @@ p{
 
 /* Testimonial Section */
 
-#testimonials{
-    background-color: #ef8172;
-    color: #fff;
-}
-
 .testimonials-img{
     width: 10%;
     border-radius: 100%;
@@ -107,7 +112,6 @@ p{
 }
 
 #press{
-    background-color: #ef8172;
     padding-bottom: 3%;
 }
 
@@ -124,19 +128,6 @@ p{
 
 .pricing-column{
     padding: 3% 2%;
-}
-
-/* Bottom Sections */
-
-#cta{
-    background: #ff4c68;
-}
-
-#cta h3{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
 }
 
 /* Footer */
@@ -158,11 +149,5 @@ p{
         position: static;
         transform: rotate(0);
         width: 60%;
-    }
-}
-
-@media (min-width: 1281px){
-    .title-image{
-        width: 46%;
     }
 }
